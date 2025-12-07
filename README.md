@@ -65,7 +65,7 @@ def tmp_postgres():
 Postgres binaries in the package can be found in the directory pointed
 to by the `pgserver.POSTGRES_BIN_PATH` to be used directly.
 
-This project was originally based on [](https://github.com/michelp/postgresql-wheel), which provides a linux wheel.
+This project was originally based on <https://github.com/michelp/postgresql-wheel>, which provides a linux wheel.
 But adds the following differences:
 1. binary wheels for multiple platforms (ubuntu x86, MacOS apple silicon, MacOS x86, Windows)
 2. postgres python management: cross-platfurm startup and cleanup including many edge cases, runs on colab etc.
